@@ -24,6 +24,8 @@ export default function() {
     https://www.ember-cli-mirage.com/docs/route-handlers/shorthands
   */
 
+  this.passthrough('https://api.mapbox.com/**');
+
   this.namespace = '/api';
 
   const rentals = [{

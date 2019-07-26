@@ -14,7 +14,7 @@
     "build": "ember build",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
-    "start": "ember serve",
+    "start": "LEAFLET_MAPS_API_KEY=pk.eyJ1Ijoiamlhbm15cGh5MTIzIiwiYSI6ImNqeWsyenJ1NDAwNnczY212c2E4b291aXcifQ.1-oW1GUcoBRbJZnVxVollg ember serve",
     "test": "ember test"
   },
   "devDependencies": {
@@ -41,6 +41,7 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^4.4.1",
     "ember-resolver": "^5.0.1",
+    "ember-simple-leaflet-maps": "0.0.3",
     "ember-source": "~3.11.1",
     "ember-welcome-page": "^4.0.0",
     "eslint-plugin-ember": "^6.2.0",
